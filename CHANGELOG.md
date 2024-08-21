@@ -1,3 +1,6 @@
+## 2.1.0
+New version using Flutter 3 Null Saffety 
+
 ## 1.0.0
 Updated pubspec to show supported on both android and ios
 
