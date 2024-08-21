@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:system_shortcuts/system_shortcuts.dart';
+import 'package:scrumlab_system_shortcuts/scrumlab_system_shortcuts.dart';
 
 void main() => runApp(Main());
 

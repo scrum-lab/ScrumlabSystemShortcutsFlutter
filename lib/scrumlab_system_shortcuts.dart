@@ -15,7 +15,8 @@ import 'package:flutter/services.dart';
 /// You can toggle wifi and bluetooth as well using wifi ( ) and bluetooth ( )
 /// functions respectively
 class SystemShortcuts {
-  static const MethodChannel _channel = const MethodChannel('system_shortcuts');
+  static const MethodChannel _channel =
+      const MethodChannel('scrumlab_system_shortcuts');
 
   /// Press home button programatically .
   ///

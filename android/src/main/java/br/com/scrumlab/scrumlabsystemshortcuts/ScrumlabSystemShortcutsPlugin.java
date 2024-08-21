@@ -35,7 +35,7 @@ public class ScrumlabSystemShortcutsPlugin implements FlutterPlugin, ActivityAwa
     @Override
     public void onAttachedToEngine(@NonNull FlutterPluginBinding binding) {
         channel = new MethodChannel(
-                binding.getBinaryMessenger(), "system_shortcuts");
+                binding.getBinaryMessenger(), "scrumlab_system_shortcuts");
         channel.setMethodCallHandler(this);
     }
 
@@ -70,7 +70,7 @@ public class ScrumlabSystemShortcutsPlugin implements FlutterPlugin, ActivityAwa
      */
     public static void registerWith(Registrar registrar) {
         ScrumlabSystemShortcutsPlugin instance = new ScrumlabSystemShortcutsPlugin();
-        instance.channel = new MethodChannel(registrar.messenger(), "system_shortcuts");
+        instance.channel = new MethodChannel(registrar.messenger(), "scrumlab_system_shortcuts");
         instance.activity = registrar.activity();
         instance.channel.setMethodCallHandler(instance);
     }

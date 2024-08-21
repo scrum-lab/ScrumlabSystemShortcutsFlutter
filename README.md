@@ -1,4 +1,4 @@
-# system_shortcuts
+# scrumlab_system_shortcuts
 
 A flutter plugin to use system shortcuts.
 
@@ -15,7 +15,7 @@ A flutter plugin to use system shortcuts.
 ```
 ### Make this import 
 
-> import 'package:system_shortcuts/SystemShortcutsFlutter.dart';
+> import 'package:scrumlab_system_shortcuts/SystemShortcutsFlutter.dart';
 
 # Functions 
 

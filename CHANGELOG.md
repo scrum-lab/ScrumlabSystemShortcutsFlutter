@@ -29,7 +29,7 @@ Version Upgrade
 
 ## 0.0.7
 
-Added async library to system_shortcuts.dart file.
+Added async library to scrumlab_system_shortcuts.dart file.
 
 ## 0.0.6
 
@@ -37,7 +37,7 @@ Added license.
 
 ## 0.0.5
 
-Updated dart doc documentation in system_shortcuts.dart  file
+Updated dart doc documentation in scrumlab_system_shortcuts.dart  file
 
 ## 0.0.4
 

@@ -1,5 +1,5 @@
 name: scrumlab_system_shortcuts_example
-description: Demonstrates how to use the system_shortcuts plugin.
+description: Demonstrates how to use the scrumlab_system_shortcuts plugin.
 publish_to: 'none'
 
 environment:
@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  system_shortcuts:
+  scrumlab_system_shortcuts:
     path: ../
 
 # For information on the generic Dart part of this file, see the

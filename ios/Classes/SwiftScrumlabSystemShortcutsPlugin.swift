@@ -5,7 +5,7 @@ import MediaPlayer
 public class SwiftScrumlabSystemShortcutsPlugin: NSObject, FlutterPlugin {
   var registrar: FlutterPluginRegistrar?
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "system_shortcuts", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "scrumlab_system_shortcuts", binaryMessenger: registrar.messenger())
     let instance = SwiftScrumlabSystemShortcutsPlugin(r: registrar)
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
